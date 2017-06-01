@@ -3,30 +3,32 @@
 
 ![4 panels Explaining DRILSDOWN concept](https://raw.githubusercontent.com/brianmapes/EarthCube-DRILSDOWN/master/DRILSDOWN.strategy.2017-06-01.why.jpg)
 
-# Get DRILSDOWN capabilities in **three tiers**, of increasing complexity 
+# Get DRILSDOWN capabilities in **three tiers** of increasing complexity 
 
 ## 1. Install The IDV on screen machine, teleport a template, study visualizations.
 ## 2. As above, plus install Jupyter Notebooks to interact with your IDV sessions. 
-## 3. As above, plus install RAMADDA on a server, to curate the results of 1. & 2. and to serve out datasets.
+## 3. As above, plus install RAMADDA on a server to curate the results of 1. & 2. and to serve out datasets.
 
 ----------------
 
 ### Tier 1. Teleporting with the IDV
-**Install** [The IDV and a Plugin](https://www.rsmas.miami.edu/users/bmapes/MapesIDVcollection.html) on your screen machine, and learn the basics of interacting with it, e.g. from [this ppt](http://weather.rsmas.miami.edu/repository/entry/get/IDV_intro_LMTmanual.pptx?entryid=dd95b65c-09a5-43a5-9f44-da5243e302f4). 
+**Install** [The IDV](http://www.unidata.ucar.edu/downloads/idv/current/index.jsp) [and our recommended Plugin](https://www.rsmas.miami.edu/users/bmapes/MapesIDVcollection.html) on your screen machine. Learn the basics of interacting with The IDV, e.g. from [this ppt](http://weather.rsmas.miami.edu/repository/entry/get/IDV_intro_LMTmanual.pptx?entryid=dd95b65c-09a5-43a5-9f44-da5243e302f4). 
 
-- 1a. To try out The IDV for some atmospheric data around heavy rain events, you can select a case from [this online atlas](http://www.rsmas.miami.edu/users/bmapes/HeavyRains_clickmaps/index.html). 
+- 1a. Teleport one of our RAMADDA-hosted templates [like this one](http://weather.rsmas.miami.edu/repository/entry/show/Reanalyses-satellite_forWikipedia.isl/RSMAS-UM+Repository+for+atm-ocean+data+and+its+science/The+Mapes+IDV+collection/IDV+Bundles/Case+study+templates/Reanalyses-satellite_forWikipedia?entryid=ec12b8ce-3ea2-4de9-a833-3f4f13aca23b&output=idv.islform) to your places & cases. Or to try out The IDV for some atmospheric data around heavy rain events, you can select a case from [this online atlas](http://www.rsmas.miami.edu/users/bmapes/HeavyRains_clickmaps/index.html). 
 
-- 1b To teleport one of our RAMADDA-stored templates [like this one](http://weather.rsmas.miami.edu/repository/entry/show?entryid=ec12b8ce-3ea2-4de9-a833-3f4f13aca23b) to your places & cases. To constuct Python command-line calls that will teleport an IDV bundle, clone a copy of [IDV_teleport.py](https://github.com/suvarchal/IDV_teleport) and follow the directions.  
+- 1b. To use a Python command-line call to teleport an IDV bundle, clone a copy of [IDV_teleport.py](https://github.com/suvarchal/IDV_teleport) and follow the directions there, or type _python div_teleport.py -h_ to get help.  
 
-### Tier 2. Add Jupyter notebooks
-**Install** Jupyter, part of [Anaconda](https://www.continuum.io/downloads), on your screen machine, and learn the basics of interacting with notebooks. 
+### Tier 2. Add Jupyter notebooks to the mix
+**Install** Jupyter notebooks on your screen machine, starting [here](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/). You can learn more about Notebook technology from [Unidata](https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/jupyter_notebook_2016.pdf). 
 
-- 2a. To use iPython notebooks, get a copy of [drilsdown.py](https://raw.githubusercontent.com/Unidata/ipython-IDV/master/drilsdown.py) and put it in your _.ipython/extensions_ file in your home directory. Then within a notebook, invoking the magic _%reload_ext drilsdown_ will unlock tha ability to launch and communicate with The IDV from within the Notebook environment. See one of our template notebooks like [this one](http://geodesystems.com/repository/entry/show?entryid=8f7cfb7e-aba1-4b8f-878c-65b525aee169) for examples of the available commands.  
+- 2a. To use The IDV within iPython notebooks, follow the 4 steps [here](https://github.com/Unidata/ipython-IDV/blob/master/README.md#ipython-idv). From the Notebook, you will launch an IDV instance and communicate with it from within the Notebook environment, capturing images and animations into the Notebook, and connecting The IDV's data and display capabilities to your other Python computations. It is clearest to start from an example .ipynb file, like this one.  
 
-- 2b. Alternately, install the Jython kernel for JuPyter, [JyIDV](https://github.com/suvarchal/JyIDV), culminating in the command _python setup.py install_. Follow and extend the example notebooks there. 
+- 2b. To work with The IDV from a Jupyter notebook with a Jython kernel (one of IDV's native languages), install [JyIDV](https://github.com/suvarchal/JyIDV), culminating in the command line call of _python setup.py install_. Follow and extend the example notebooks you can find there. 
 
 
-### Tier 3. Add your own RAMADDA server
+### Tier 3. Run your own RAMADDA server
+#### Perhaps you see the power of RAMADDA from Tiers 1 and 2 and want to operate your own RAMADDA, so you can publish to it, and with it, moving beyond just fetching goodies from someone else's. 
+
 **Install** [RAMADDA](http://geodesystems.com/repository/entry/show?entryid=2e485e95-eb29-44fc-8987-76e6ac74365a) on your networked server (or in fact, it can run on your laptop or screen machine too). Among its many other functions, RAMADDA can be used to serve out gridded numerical datasets suitable for IDV access from anywhere. It can also publish and curate [IDV bundles](http://weather.rsmas.miami.edu/repository/entry/show?entryid=115a4ff0-10de-4fba-86d7-66cd42d6d8de), and publish and render [Jupyter notebooks](http://dataloggia.com/repository/entry/show?entryid=3552f8c0-a3af-4531-9339-9d420a437835).
 
-Obtain the DRILSDOWN [plugin for RAMADDA](https://github.com/Unidata/drilsdown) to gain extra services. Special for DRILSDOWN is an entry type called a [_case study_](http://geodesystems.com/repository/entry/show?entryid=12704a38-9a06-4989-aac4-dafbbe13a675), which can contain meaningfully linked-together groups of notebooks, IDV bundles, and pre-made images. Your content can be accessed from anywhere, and new services can be integrated within RAMADDA to operate on whatever sorts of materials and data you store there. 
+Obtain the DRILSDOWN [plugin for RAMADDA](https://github.com/Unidata/ipython-IDV/blob/master/README.md#setting-up-your-own-ramadda-to-handle-drilsdown-case-study-objects) to gain extra services. Special for DRILSDOWN is an entry type called a [_case study_ like this](http://geodesystems.com/repository/entry/show?entryid=12704a38-9a06-4989-aac4-dafbbe13a675). This digital object (symbolized by a briefcase icon) can contain meaningfully linked-together sets of notebooks, IDV bundles, and pre-made images, as well as metadata tags. Your content can be accessed from anywhere, and new services can be developed within RAMADDA to operate on whatever sorts of materials and data you may store in sufficiently-similar Case Studies. 
