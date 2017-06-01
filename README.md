@@ -1,14 +1,27 @@
-## DRILSDOWN
+# DRILSDOWN
+### Drawing Rich Integrated Lat-lon-time Samples from Datasets Online into Working Notebooks
 
-![Explaining DRILSDOWN concept](https://raw.githubusercontent.com/brianmapes/EarthCube-DRILSDOWN/master/DRILSDOWN.strategy.2017-06-01.why.jpg)
+![4 panels Explaining DRILSDOWN concept](https://raw.githubusercontent.com/brianmapes/EarthCube-DRILSDOWN/master/DRILSDOWN.strategy.2017-06-01.why.jpg)
 
-You can use the [editor on GitHub](https://github.com/brianmapes/EarthCube-DRILSDOWN/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Three Tiers (all freeware)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 1. Install The IDV, teleport a template to any space-time region, examine displays.
+### 2. As above, and install Jupyter Notebooks drilsdown.py extension
+### 3. As above, and install a RAMADDA to curate templates & results, and serve out your own datasets.
 
-### Markdown
+### 1. Teleporting with the IDV.
+**Install** [The IDV and a Plugin](https://www.rsmas.miami.edu/users/bmapes/MapesIDVcollection.html) on your screen machine, and learn [the basics of interacting with it] (). 
+	Teleport one of our templates to your places & cases, look
+	Visualization for Algorithm Development
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+2. Add Jupyter notebooks
+	As above, with note-taking & Python links
+
+3. Add your own RAMADDA
+	Your datasets, served
+	Publish notebooks, templates, etc. 
+	Manage & manipulate collections
+
 
 ```markdown
 Syntax highlighted code block
