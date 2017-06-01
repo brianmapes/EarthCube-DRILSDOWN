@@ -16,7 +16,7 @@
 
 - 1a. Teleport one of our RAMADDA-hosted templates [like this one](http://weather.rsmas.miami.edu/repository/entry/show/Reanalyses-satellite_forWikipedia.isl/RSMAS-UM+Repository+for+atm-ocean+data+and+its+science/The+Mapes+IDV+collection/IDV+Bundles/Case+study+templates/Reanalyses-satellite_forWikipedia?entryid=ec12b8ce-3ea2-4de9-a833-3f4f13aca23b&output=idv.islform) to your places & cases. Or to try out The IDV for some atmospheric data around heavy rain events, you can select a case from [this online atlas](http://www.rsmas.miami.edu/users/bmapes/HeavyRains_clickmaps/index.html). 
 
-- 1b. To use a Python command-line call to teleport an IDV bundle, clone a copy of [IDV_teleport.py](https://github.com/suvarchal/IDV_teleport) and follow the directions there, or type _python div_teleport.py -h_ to get help.  
+- 1b. To use a Python command-line call to teleport an IDV bundle, clone a copy of [IDV_teleport.py](https://github.com/suvarchal/IDV_teleport) and follow the directions there, or type _python idv_teleport.py -h_ to get help.  
 
 ### Tier 2. Add Jupyter notebooks to the mix
 **Install** Jupyter notebooks on your screen machine, starting [here](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/). You can learn more about Notebook technology from [Unidata](https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/jupyter_notebook_2016.pdf). 
