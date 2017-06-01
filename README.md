@@ -1,6 +1,6 @@
 ## DRILSDOWN
 
-![Explaining DRILSDOWN concept](EarthCube-DRILSDOWN/DRILSDOWN.strategy.2017-06-01.why.jpg)
+![Explaining DRILSDOWN concept](https://raw.githubusercontent.com/brianmapes/EarthCube-DRILSDOWN/master/DRILSDOWN.strategy.2017-06-01.why.jpg)
 
 You can use the [editor on GitHub](https://github.com/brianmapes/EarthCube-DRILSDOWN/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
