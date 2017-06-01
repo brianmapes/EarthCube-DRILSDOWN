@@ -23,7 +23,7 @@
 
 - 2a. To use iPython notebooks, get a copy of [drilsdown.py](https://raw.githubusercontent.com/Unidata/ipython-IDV/master/drilsdown.py) and put it in your _.ipython/extensions_ file in your home directory. Then within a notebook, invoking the magic _%reload_ext drilsdown_ will unlock tha ability to launch and communicate with The IDV from within the Notebook environment. See one of our template notebooks like [this one](http://geodesystems.com/repository/entry/show?entryid=8f7cfb7e-aba1-4b8f-878c-65b525aee169) for examples of the available commands.  
 
-- 2b. Alternately, install the Jython kernel for JuPyter, [JyIDV](https://github.com/suvarchal/JyIDV), culimating in the command _python setup.py install_.
+- 2b. Alternately, install the Jython kernel for JuPyter, [JyIDV](https://github.com/suvarchal/JyIDV), culminating in the command _python setup.py install_. Follow and extend the example notebooks there. 
 
 
 ### Tier 3. Add your own RAMADDA server
