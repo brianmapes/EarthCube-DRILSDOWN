@@ -5,9 +5,9 @@
 
 # Get DRILSDOWN capabilities in **three tiers** of increasing complexity 
 
-## 1. Install The IDV on screen machine, teleport a template, study visualizations.
+## 1. Install The IDV on your screen machine. Teleport a template, study its visualizations.
 ## 2. As above, plus install Jupyter Notebooks to interact with your IDV sessions. 
-## 3. As above, plus install RAMADDA on a server to curate the results of 1. & 2. and to serve out datasets.
+## 3. As above, plus install RAMADDA on a server to curate the results of 1. & 2., and to share out your stuff to the world.
 
 ----------------
 
