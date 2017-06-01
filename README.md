@@ -9,6 +9,8 @@
 ## 2. As above, plus install Jupyter Notebooks to interact with your IDV sessions. 
 ## 3. As above, plus get RAMADDA for a server, to curate the above & serve out datasets.
 
+----------------
+
 ### Level 1. Teleporting with the IDV
 **Install** [The IDV and a Plugin](https://www.rsmas.miami.edu/users/bmapes/MapesIDVcollection.html) on your screen machine, and learn the basics of interacting with it, e.g. from [this ppt](http://weather.rsmas.miami.edu/repository/entry/get/IDV_intro_LMTmanual.pptx?entryid=dd95b65c-09a5-43a5-9f44-da5243e302f4). 
 
