@@ -3,7 +3,7 @@
 
 ![4 panels Explaining DRILSDOWN concept](https://raw.githubusercontent.com/brianmapes/EarthCube-DRILSDOWN/master/DRILSDOWN.strategy.2017-06-01.why.jpg)
 
-# Three Levels 
+# You can access DRILSDOWN capabilities in **three tiers**, of increasing complexity 
 
 ## 1. Install The IDV on screen machine, teleport a template, study visualizations.
 ## 2. As above, plus install Jupyter Notebooks to interact with your IDV sessions. 
