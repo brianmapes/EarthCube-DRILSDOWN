@@ -1,0 +1,207 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>DRILSDOWN FAQs</title>
+  </head>
+  <body>
+    <div align="center">
+      <h1>DRILSDOWN</h1>
+      <address>an EarthCube project<br>
+        <br>
+      </address>
+      <div align="left">
+        <h2>Frequently Asked Questions<br>
+        </h2>
+      </div>
+      <h4 align="left">1. What's the vision? <br>
+      </h4>
+      <p align="left">The idea of <i>visualization for algorithm design
+          (VisAD) </i>is that human-data interaction in a Graphical
+        User Interface (GUI) can be a valuable source of insight for the
+        quest to objectively measure important space-time processes,
+        relationships, and entities. <br>
+      </p>
+      <div align="left">DRILSDOWN aims to link a powerful free GUI (The
+        IDV, embodying the VisAD idea) to a popular coding space
+        (JuPyter notebooks and&nbsp; iPython), for big data in geospace
+        (including the atmosphere and ocean where the time domain is
+        also big and highly structured).<br>
+        <br>
+      </div>
+      <h4 align="left">2. Who is DRILSDOWN intended for? <br>
+      </h4>
+      <p align="left">Researchers and students seeking to extract
+        meaning from big geospatial datasets, including multiple and
+        distributed datasets.<br>
+        <br>
+      </p>
+      <h4 align="left">3. What does DRILSDOWN do?</h4>
+      <p align="left">DRILSDOWN facilitates the 3 main steps to
+        realizing the VisAD vision: <i>Select</i>, <i>Interact</i>, <i>Capture</i>.</p>
+      <p align="left">&nbsp;&nbsp;&nbsp; 1. Select space-time regions
+        ("cases") where results from a candidate algorithm look
+        "interesting" enough to merit a "drilling down".<br>
+        &nbsp;&nbsp;&nbsp; 2. Interact with GUI (tied to a Notebook) to
+        examine the algorithm's results and intermediate steps in light
+        of raw data underlays. <br>
+        &nbsp;&nbsp;&nbsp; 3. Capture findings, and templates for
+        repeating the process (identically on other data cases, or in a
+        next round of refinements).<br>
+        <br>
+      </p>
+      <h4 align="left">4. How are those three steps (<i>select, interact,
+          capture</i>) represented in software? <br>
+      </h4>
+      <p align="left"><b>St</b><b>ep 1</b> (<i>select</i>) is often
+        rooted in a user's own candidate codes, which define
+        "interesting" cases. A case consists of a space and time range
+        (bounding box) and a label. <br>
+      </p>
+      <p align="left"><b>Step 2</b> (<i>interact</i>) requires an IDV
+        bundle with data and candidate algorithms ready to execute on
+        them. Preparing this initial bundle is part of Step 3, since the
+        cycle must be primed with an initial case study. <br>
+      </p>
+      <p align="left"><b>Step 3</b> (<i>capture</i>) encompassed several
+        sub-activities. <br>
+      </p>
+      <p align="left">3a. IDV bundles are captured to seed Step 2, for
+        repeating on other cases, or for the next round of refinement. <br>
+      </p>
+      <p align="left">3b. Notebooks with case metadata, candidate
+        algorithm information, computation calls, and screen captures
+        from the interactions in Step 2 are captured as a scientific
+        record. These <i>case study notebooks</i> can be published to a
+        RAMADDA repository as a coherent set of JuPyter and IDV files,
+        where they are viewable and downloadable as a replicable
+        scientific experience.&nbsp;&nbsp; </p>
+      <p align="left">3c. A notebook like 3b. can be stripped down to
+        its basics and captured as a seed, for repeating identically on
+        other cases, of for the next round of refinement. <br>
+      </p>
+      <p align="left">Each of these captured items has associated
+        services, so Step 3 is a big composite item. <br>
+        <br>
+      </p>
+      <h4 align="left">4. Is DRILSDOWN one thing, or several? <br>
+      </h4>
+      <p align="left">Based on the above, DRILSDOWN must be at least 3
+        things! It is better to view DRILSDOWN as <b>a set of
+          connectors</b> that link JuPyter notebooks (used for steps 1
+        and 3), The IDV (for step 2), and an IDV-related
+        repository-with-services called RAMADDA (for step 3). <br>
+      </p>
+      <p align="left">These connectors include internal enhancements and
+        plugins to The IDV and RAMADDA software packages, plus a
+        drilsdown.py file and/or Jython shell for JuPyter that bring
+        capabilities into the JuPyter notebook environment.&nbsp; <br>
+      </p>
+      <p align="left"><i>Select</i> (step 1) often consists of users'
+        own candidate codes, which define "interesting" cases. For this
+        reason, our development focuses on designing an interface for
+        users to interact with step 2 (the core IDV GUI process). Our
+        own scientific use cases are offered as models. <br>
+        <br>
+      </p>
+      <h4 align="left">5. What parts are ready to use now?</h4>
+      <p align="left">
+        <meta charset="utf-8">
+        <span style="color: rgb(0, 0, 0); font-family: Times; font-size:
+          medium; font-style: normal; font-variant-ligatures: normal;
+          font-variant-caps: normal; font-weight: normal;
+          letter-spacing: normal; orphans: 2; text-align: -webkit-left;
+          text-indent: 0px; text-transform: none; white-space: normal;
+          widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;
+          display: inline !important; float: none;">We don't want to
+          frustrate or disappoint the potential user base with premature
+          releases that don't actually serve top-level VisAD goals.
+          However, test versions that embody workflows from our
+          atmosphere and ocean research are available. Volunteer "alpha
+          testers" to extend and generalize these use cases will be
+          recruited when a critical mass of functionality has been
+          assembled and tested.<br>
+          <br>
+        </span></p>
+      <h4 align="left">6. How do I install DRILSDOWN? <br>
+      </h4>
+      <p align="left">(DRAFT!) Here is a minimal checklist of installs
+        tested recently for the <a
+          href="https://github.com/brianmapes/CHAD_G5NR">CHAD_G5NR</a>
+        prototype use case: <br>
+      </p>
+      <p align="left">&nbsp; &nbsp; 1. Install conda and JuPyter
+        notebooks, by installing <a
+          href="https://www.continuum.io/downloads">Anaconda</a>
+        (python2, not python3). <br>
+      </p>
+      <p align="left"> &nbsp;&nbsp;&nbsp; 2. In a terminal, install a
+        few necessary packages <br>
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; conda
+        install netcdf4 hdf4 pyqt=4.11 ipywidgets<br>
+      </p>
+      <p align="left">&nbsp;&nbsp;&nbsp; 3. Install The IDV and 2 small
+        plugin files as described in the Quickstart directions <a
+          href="https://www.rsmas.miami.edu/users/bmapes/MapesIDVcollection.html">here</a>.
+        <br>
+      </p>
+      <p align="left"> &nbsp;&nbsp;&nbsp; 4. Download drilsdown.py from
+        <a href="https://github.com/Unidata/ipython-IDV">this GitHub
+          page</a> into a home directory folder called ~/
+        <meta http-equiv="content-type" content="text/html;
+          charset=UTF-8">
+        ipython/extensions. <br>
+      </p>
+      <p align="left">&nbsp;&nbsp;&nbsp; 5. Install <a
+          href="https://github.com/suvarchal/JyIDV">JyIDV from GitHub</a>,
+        culimating in the command
+        <meta charset="utf-8">
+        <span style="color: rgb(106, 115, 125); font-family:
+          SFMono-Regular, Consolas, &quot;Liberation Mono&quot;, Menlo,
+          Courier, monospace; font-size: 13.6px; font-style: normal;
+          font-variant-ligatures: normal; font-variant-caps: normal;
+          font-weight: normal; letter-spacing: normal; orphans: 2;
+          text-align: left; text-indent: 0px; text-transform: none;
+          white-space: normal; widows: 2; word-spacing: 0px;
+          -webkit-text-stroke-width: 0px; background-color: rgba(27, 31,
+          35, 0.0470588); display: inline !important; float: none;">python
+          setup.py install<br>
+        </span></p>
+      <p align="left"></p>
+      <h4 align="left">
+        <meta charset="utf-8">
+        <span style="color: rgb(0, 0, 0); font-family: Times; font-size:
+          medium; font-style: normal; font-variant-ligatures: normal;
+          font-variant-caps: normal; font-weight: normal;
+          letter-spacing: normal; orphans: 2; text-align: -webkit-left;
+          text-indent: 0px; text-transform: none; white-space: normal;
+          widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;
+          display: inline !important; float: none;">There is redundant
+          functionality between 4. and 5. but it may be useful to have
+          the entire set of related tools. </span><br style="color:
+          rgb(0, 0, 0); font-family: Times; font-size: medium;
+          font-style: normal; font-variant-ligatures: normal;
+          font-variant-caps: normal; font-weight: normal;
+          letter-spacing: normal; orphans: 2; text-align: -webkit-left;
+          text-indent: 0px; text-transform: none; white-space: normal;
+          widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+      </h4>
+      <p><br>
+      </p>
+      <h4 align="left">7. How do I use DRILSDOWN? </h4>
+      <p align="left">To activate the iPython extension within a JuPyter
+        notebook, you execute a cell containing
+      </p>
+      <div align="left">
+        <pre>%reload_ext drilsdown<br></pre>
+</div>
+<p align="left">Seed notebooks for Step 2 can contain this line as well as other cues to the user at execution time. <br></p>
+<h4 align="left"><br></h4><h4 align="left">99. What does the DRILSDOWN acronym stand for? <br>
+      </h4>
+      <div align="left">
+        Drawing Rich Integrated Lat-lon-time Samples from
+          Datasets Online into Working Notebooks<br>
+      </div>
+    </div>
+  
+</body></html>
