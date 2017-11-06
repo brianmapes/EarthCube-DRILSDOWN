@@ -2,22 +2,22 @@
 #### _Drawing Rich Integrated Lat-lon-time Samples from Datasets Online into Working Notebooks_
 https://brianmapes.github.io/EarthCube-DRILSDOWN/
 
-![4 panels Explaining DRILSDOWN concept](https://raw.githubusercontent.com/brianmapes/EarthCube-DRILSDOWN/master/DRILSDOWN.strategy.2017-06-01.whynot.jpg)
+[(image: 4 panels Explaining DRILSDOWN concept)](https://raw.githubusercontent.com/brianmapes/EarthCube-DRILSDOWN/master/DRILSDOWN.strategy.2017-06-01.why.jpg)
 
 # Get DRILSDOWN capabilities in **three tiers** of increasing complexity 
 
 ## 1. IDV only. Install The IDV on your screen machine, then use idv_teleport a template bundle to any place+time.
-## 2. IDV as above, *plus* install Jupyter Notebooks, and have that interact with your IDV session. 
-## 3. As above, *plus* install RAMADDA on a server to curate the results of 1. & 2., and to share out your stuff to the world.
+## 2. IDV *plus* install Jupyter, and have Notebooks interact with your IDV session. 
+## 3. IDV+Jupyter, *plus* install RAMADDA on a server to curate the results of 1. & 2., and share out to the world.
 
 ----------------
 
-### Tier 1. Teleporting with the IDV
+### Tier 1. Teleporting the IDV to any place and time:
 **Install** [The IDV](http://www.unidata.ucar.edu/downloads/idv/nightly/index.jsp){:target="_blank"} [and our recommended Plugin](https://www.rsmas.miami.edu/users/bmapes/MapesIDVcollection.html){:target="_blank"} on your screen machine. Learn the basics of interacting with The IDV, e.g. from [this ppt](http://weather.rsmas.miami.edu/repository/entry/get/IDV_intro_LMTmanual.pptx?entryid=dd95b65c-09a5-43a5-9f44-da5243e302f4){:target="_blank"}. 
 
-- 1a. Teleport one of our RAMADDA-hosted templates [like this one](http://weather.rsmas.miami.edu/repository/entry/show/Reanalyses-satellite_forWikipedia.isl/RSMAS-UM+Repository+for+atm-ocean+data+and+its+science/The+Mapes+IDV+collection/IDV+Bundles/Case+study+templates/Reanalyses-satellite_forWikipedia?entryid=ec12b8ce-3ea2-4de9-a833-3f4f13aca23b&output=idv.islform){:target="_blank"} to your places & cases. Or to try out The IDV for some atmospheric data around heavy rain events, you can select a case from [this online atlas](http://www.rsmas.miami.edu/users/bmapes/HeavyRains_clickmaps/index.html){:target="_blank"}. 
+- 1a. **Obtain** a template IDV bundle, with displays you like, drawn from a big aggregated dataset, [like this one](http://weather.rsmas.miami.edu/repository/entry/show/Reanalyses-satellite_forWikipedia.isl/RSMAS-UM+Repository+for+atm-ocean+data+and+its+science/The+Mapes+IDV+collection/IDV+Bundles/Case+study+templates/Reanalyses-satellite_forWikipedia?entryid=ec12b8ce-3ea2-4de9-a833-3f4f13aca23b&output=idv.islform){:target="_blank"}. It can then be teleported to your places & cases. For instance, to try out The IDV for some atmospheric data around heavy rain events, you can select a case from [this online atlas](http://www.rsmas.miami.edu/users/bmapes/HeavyRains_clickmaps/index.html){:target="_blank"}. 
 
-- 1b. To use a Python command-line call to teleport an IDV bundle, clone a copy of [IDV_teleport.py](https://github.com/suvarchal/IDV_teleport) and follow the directions there, or type _python idv_teleport.py -h_ to get help.  
+- 1b. **Teleport by command line:** To use a command-line call to teleport your IDV bundle, you could clone a copy of [IDV_teleport.py](https://github.com/suvarchal/IDV_teleport). Follow the directions there, or type _python idv_teleport.py -h_ to get help. **Even easier:** run _pip install drilsdown_, and then _idv_teleport -h_ will be a direct command. 
 
 ### Tier 2. Add Jupyter notebooks to the mix
 **Install** Jupyter notebooks on your screen machine, starting [here](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/). You can learn more about Notebook technology from [Unidata](https://github.com/Unidata/unidata-python-workshop/blob/master/presentations/jupyter_notebook_2016.pdf){:target="_blank"}. 
