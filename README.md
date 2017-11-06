@@ -2,13 +2,13 @@
 #### _Drawing Rich Integrated Lat-lon-time Samples from Datasets Online into Working Notebooks_
 https://brianmapes.github.io/EarthCube-DRILSDOWN/
 
-![4 panels Explaining DRILSDOWN concept](https://raw.githubusercontent.com/brianmapes/EarthCube-DRILSDOWN/master/DRILSDOWN.strategy.2017-06-01.why.jpg)
+![4 panels Explaining DRILSDOWN concept](https://raw.githubusercontent.com/brianmapes/EarthCube-DRILSDOWN/master/DRILSDOWN.strategy.2017-06-01.whynot.jpg)
 
 # Get DRILSDOWN capabilities in **three tiers** of increasing complexity 
 
-## 1. Install The IDV on your screen machine. Teleport a template, study its visualizations.
-## 2. As above, plus install Jupyter Notebooks to interact with your IDV sessions. 
-## 3. As above, plus install RAMADDA on a server to curate the results of 1. & 2., and to share out your stuff to the world.
+## 1. IDV only. Install The IDV on your screen machine, then use idv_teleport a template bundle to any place+time.
+## 2. IDV as above, *plus* install Jupyter Notebooks, and have that interact with your IDV session. 
+## 3. As above, *plus* install RAMADDA on a server to curate the results of 1. & 2., and to share out your stuff to the world.
 
 ----------------
 
