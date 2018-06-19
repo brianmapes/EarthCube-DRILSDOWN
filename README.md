@@ -1,8 +1,9 @@
 # DRILSDOWN
 #### _Drawing Rich Integrated Lat-lon-time Samples from Datasets Online into Working Notebooks_
-https://brianmapes.github.io/EarthCube-DRILSDOWN/
 
 [(image: 4 panel cartoon Explaining DRILSDOWN concept)](https://raw.githubusercontent.com/brianmapes/EarthCube-DRILSDOWN/master/DRILSDOWN.strategy.2017-06-01.why.jpg)
+
+unidata.github.io/drilsdown/
 
 # Get DRILSDOWN capabilities in **three tiers** of increasing complexity 
 
