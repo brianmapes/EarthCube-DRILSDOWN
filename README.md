@@ -1,7 +1,7 @@
 # DRILSDOWN
 #### _Drawing Rich Integrated Lat-lon-time Samples from Datasets Online into Working Notebooks_
 
-Documentation is now at https://unidata.github.io/drilsdown/
+Documentation is now at [https://unidata.github.io/drilsdown/]
 
 
 ----------------
