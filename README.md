@@ -4,6 +4,9 @@
 Documentation is now at https://unidata.github.io/drilsdown/
 
 
+----------------
+-----------------
+
 [(image: 4 panel cartoon Explaining DRILSDOWN concept)](https://raw.githubusercontent.com/brianmapes/EarthCube-DRILSDOWN/master/DRILSDOWN.strategy.2017-06-01.why.jpg)
 
 # Get DRILSDOWN capabilities in **three tiers** of increasing complexity 
@@ -16,7 +19,7 @@ out to the world.
 ----------------
 
 ### Tier 1. Teleporting the IDV to any place and time:
-**Install** [The IDV](http://www.unidata.ucar.edu/downloads/idv/nightly/index.jsp){:target="_blank"} [and our recommended Plugin](https://www.rsmas.miami.edu/users/bmapes/MapesIDVcollection.html){:target="_blank"} on your screen machine. Learn the basics of interacting with The IDV, for example from [this ppt](http://weather.rsmas.miami.edu/repository/entry/get/IDV_intro_LMTmanual.pptx?entryid=dd95b65c-09a5-43a5-9f44-da5243e302f4){:target="_blank"}. 
+**Install** [The IDV](http://www.unidata.ucar.edu/downloads/idv/nightly/index.jsp){:target="_blank"} [and our recommended Plugin](https://github.com/Unidata/drilsdown/tree/master/projects/MapesIDVcollection){:target="_blank"} on your screen machine. Learn the basics of interacting with The IDV, for example from [this ppt](http://weather.rsmas.miami.edu/repository/entry/get/IDV_intro_LMTmanual.pptx?entryid=dd95b65c-09a5-43a5-9f44-da5243e302f4){:target="_blank"}. 
 
 - 1a. **Obtain** a template IDV bundle, with visualization displays you like, whose data are from a big aggregated dataset. For instance, [this one](http://weather.rsmas.miami.edu/repository/entry/show/Reanalyses-satellite_forWikipedia.isl/RSMAS-UM+Repository+for+atm-ocean+data+and+its+science/The+Mapes+IDV+collection/IDV+Bundles/Case+study+templates/Reanalyses-satellite_forWikipedia?entryid=ec12b8ce-3ea2-4de9-a833-3f4f13aca23b&output=idv.islform){:target="_blank"} has global atmospheric reanalyses and satellite data. This 'template' can be teleported to your places & cases. For instance,  try out this template for some atmospheric data around heavy rain events, by selecting a case from [this online atlas](http://www.rsmas.miami.edu/users/bmapes/HeavyRains_clickmaps/index.html){:target="_blank"}. 
 
